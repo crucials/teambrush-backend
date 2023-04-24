@@ -1,7 +1,7 @@
 import { Server } from 'socket.io'
 import { DrawEventData } from './types.js'
 
-const CLIENT_ORIGIN = 'https://teambrush.netlify.app/'
+const CLIENT_ORIGIN = 'https://teambrush.netlify.app'
 
 const io = new Server({
     cors: {
